@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Events For Spotify</string>	
+    <string name="home">Home</string>
+    <string name="settings">Einstellungen</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="login_title">Spotify Login</string>
+    
+    <string name="buy">Sofort kaufen!</string>
+    
+    <string name="group_content_descrp">Band\'s Picture</string>
+    <string name="no_events">Leider keine neuen Konzerte&#8230;</string>
+    <string name="bands_without_events">F&#252;r die hier gibt\'s leider nicht so bald wieder Konzerte&#8230;</string>
+    
+    <string name="wait">Warte&#8230;</string>
+    <string name="wait_for_spotify">Wer sind deine Lieblingsk&#252;nstler?</string>
+    <string name="wait_for_events">Wann und wo findet ein Konzert statt?</string>
+    <string name="wait_for_images">Wie sehen deine K&#252;nstler aus?</string>
+    
+	<!-- ICONS -->
+	<string name="icon_refresh">&#xf021;</string>
+	<string name="icon_logout">&#xf08b;</string>
+	<string name="icon_home">&#xf015;</string>
+	<string name="icon_settings">&#xf0ad;</string>
+	
+    <!-- ERRORS -->
+    <string name="error_spotify_registration">Fehler bei der Spotify-Anmeldung.</string>
+    <string name="error_artist_request">Fehler bei der K&#252;nstler-Suche.</string>
+    <string name="error_event_request">Fehler bei der Event-Suche.</string>
+    <string name="error_image_request">Fehler bei der Bild-Suche.</string>
+    <string name="error_general">Fehler.</string>
+    <string name="error_sequel">Bitte versuche es sp&#228;ter noch einmal&#8230;</string>
+    
+</resources>

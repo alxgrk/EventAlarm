@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/groupRelLay"
+	android:layout_width="80dp"
+	android:layout_height="80dp" >
+
+	<de.hdodenhof.circleimageview.CircleImageView
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/iv_band_image"
+		android:layout_centerHorizontal="true"
+		android:layout_width="80dp"
+  	  	android:layout_height="80dp"
+		android:contentDescription="@string/group_content_descrp"
+		android:drawable="@drawable/no_picture"
+	    app:civ_border_width="1dp"
+	    app:civ_border_color="#00000000" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/groupRelLay"
+	android:layout_width="wrap_content"
+	android:layout_height="100dp" >
+
+	<de.hdodenhof.circleimageview.CircleImageView
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/iv_band_image"
+		android:layout_centerVertical="true"
+		android:layout_centerHorizontal="true"
+		android:layout_width="200dp"
+  	  	android:layout_height="200dp"
+		android:layout_marginLeft="30dp"
+		android:layout_marginStart="30dp"
+		android:contentDescription="@string/group_content_descrp"
+		android:drawable="@drawable/no_picture"
+	    app:civ_border_width="2dp"
+	    app:civ_border_color="#00000000" />
+	
+	<TextView 
+	    style="@style/GroupItemText"
+    	android:id="@+id/tv_band_name"
+		android:layout_centerHorizontal="true"
+    	android:layout_width="fill_parent"
+  	  	android:layout_height="wrap_content"
+		android:layout_marginLeft="3dp"
+		android:layout_marginStart="3dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"
+		android:layout_below="@id/iv_band_image" />
+
+</RelativeLayout>

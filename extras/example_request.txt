@@ -1,0 +1,564 @@
+{
+  "artists" : {
+    "items" : [ {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/04L8hbMJRQ5vFnLeDgA8xn"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 11903
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/04L8hbMJRQ5vFnLeDgA8xn",
+      "id" : "04L8hbMJRQ5vFnLeDgA8xn",
+      "images" : [ {
+        "height" : 450,
+        "url" : "https://i.scdn.co/image/d419d17c839dcb83bfdad028a6cd203926a74fce",
+        "width" : 600
+      }, {
+        "height" : 150,
+        "url" : "https://i.scdn.co/image/e74d33dc8b3812137e2c260d06af64cf4e453d15",
+        "width" : 200
+      }, {
+        "height" : 48,
+        "url" : "https://i.scdn.co/image/52edd2c1bbb8ba3b2018a6a36b1948a76df956bb",
+        "width" : 64
+      } ],
+      "name" : "Die Apokalyptischen Reiter",
+      "popularity" : 44,
+      "type" : "artist",
+      "uri" : "spotify:artist:04L8hbMJRQ5vFnLeDgA8xn"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/0krXCIkthz13P8o0v2tksH"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 57738
+      },
+      "genres" : [ "folk metal", "viking metal" ],
+      "href" : "https://api.spotify.com/v1/artists/0krXCIkthz13P8o0v2tksH",
+      "id" : "0krXCIkthz13P8o0v2tksH",
+      "images" : [ {
+        "height" : 1000,
+        "url" : "https://i.scdn.co/image/f09a9af569be8fdf15c4c58f8b8bb52e78309a52",
+        "width" : 1000
+      }, {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/556d3bf11228036cec06263cf4fcb410cac85d61",
+        "width" : 640
+      }, {
+        "height" : 200,
+        "url" : "https://i.scdn.co/image/3b6fa1582f6034fe06707f092cb40c0e586681c5",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/e134563ad26b4e77d563ee2ab20c85ac3b77138c",
+        "width" : 64
+      } ],
+      "name" : "Ensiferum",
+      "popularity" : 54,
+      "type" : "artist",
+      "uri" : "spotify:artist:0krXCIkthz13P8o0v2tksH"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/159qqlGwzE04xyqpfAwRLo"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 169133
+      },
+      "genres" : [ "melodic metalcore", "metalcore" ],
+      "href" : "https://api.spotify.com/v1/artists/159qqlGwzE04xyqpfAwRLo",
+      "id" : "159qqlGwzE04xyqpfAwRLo",
+      "images" : [ {
+        "height" : 529,
+        "url" : "https://i.scdn.co/image/684d19f7f0adf278038e9c185c9050d5c89a1f6e",
+        "width" : 999
+      }, {
+        "height" : 339,
+        "url" : "https://i.scdn.co/image/8789733e85d886a2fea27776d8c25d8f7422075e",
+        "width" : 640
+      }, {
+        "height" : 106,
+        "url" : "https://i.scdn.co/image/0bbada49dacdb4503d143e3896fad64faaace8dc",
+        "width" : 200
+      }, {
+        "height" : 34,
+        "url" : "https://i.scdn.co/image/c1df634bae27296d08e69fec3b89d9edb5303045",
+        "width" : 64
+      } ],
+      "name" : "Parkway Drive",
+      "popularity" : 71,
+      "type" : "artist",
+      "uri" : "spotify:artist:159qqlGwzE04xyqpfAwRLo"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/2FXC3k01G6Gw61bmprjgqS"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 891697
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/2FXC3k01G6Gw61bmprjgqS",
+      "id" : "2FXC3k01G6Gw61bmprjgqS",
+      "images" : [ {
+        "height" : 667,
+        "url" : "https://i.scdn.co/image/76b46fd1bdcca592ab82819b57a5646f6f6e1121",
+        "width" : 1000
+      }, {
+        "height" : 427,
+        "url" : "https://i.scdn.co/image/7a597bbe31db5fdbdc400d178548a707ac576638",
+        "width" : 640
+      }, {
+        "height" : 133,
+        "url" : "https://i.scdn.co/image/a433f4aa26f4b2ced3c3b51fa11729e34944445d",
+        "width" : 199
+      }, {
+        "height" : 43,
+        "url" : "https://i.scdn.co/image/b3d9a180f87dbddce2fc02f74cf684864140de5a",
+        "width" : 64
+      } ],
+      "name" : "Hozier",
+      "popularity" : 85,
+      "type" : "artist",
+      "uri" : "spotify:artist:2FXC3k01G6Gw61bmprjgqS"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/35Uu85Pq33mK8x1jYqsHY2"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 73532
+      },
+      "genres" : [ "alternative metal", "nu metal" ],
+      "href" : "https://api.spotify.com/v1/artists/35Uu85Pq33mK8x1jYqsHY2",
+      "id" : "35Uu85Pq33mK8x1jYqsHY2",
+      "images" : [ {
+        "height" : 563,
+        "url" : "https://i.scdn.co/image/2ba47632fb0e0d554c889bb5e7286f4b571ca6ba",
+        "width" : 1000
+      }, {
+        "height" : 360,
+        "url" : "https://i.scdn.co/image/e8f1cf0ad3bb8c92d59f11c6d4c9e9ef972eb0ca",
+        "width" : 640
+      }, {
+        "height" : 113,
+        "url" : "https://i.scdn.co/image/1accc84d1cae38d5de5c577b483930823057b57f",
+        "width" : 200
+      }, {
+        "height" : 36,
+        "url" : "https://i.scdn.co/image/9f67ef6a7ed910558b3fe6672ab16e5e8d00909f",
+        "width" : 64
+      } ],
+      "name" : "Sevendust",
+      "popularity" : 63,
+      "type" : "artist",
+      "uri" : "spotify:artist:35Uu85Pq33mK8x1jYqsHY2"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3JFsVIxOn7STeilPICkkB2"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 210559
+      },
+      "genres" : [ "groove metal", "melodic metalcore" ],
+      "href" : "https://api.spotify.com/v1/artists/3JFsVIxOn7STeilPICkkB2",
+      "id" : "3JFsVIxOn7STeilPICkkB2",
+      "images" : [ {
+        "height" : 786,
+        "url" : "https://i.scdn.co/image/611fda1abe31b3756d95acd77308ab861b8aaba3",
+        "width" : 1000
+      }, {
+        "height" : 503,
+        "url" : "https://i.scdn.co/image/39bc943481b3f774435352f761b3be0d0adc0365",
+        "width" : 640
+      }, {
+        "height" : 157,
+        "url" : "https://i.scdn.co/image/f37196f0ee1526e99cdeb603c9738afb9feaa04b",
+        "width" : 200
+      }, {
+        "height" : 50,
+        "url" : "https://i.scdn.co/image/16cf3f040bd22e3d0b6d70c91a7511589433b42d",
+        "width" : 64
+      } ],
+      "name" : "Lamb of God",
+      "popularity" : 68,
+      "type" : "artist",
+      "uri" : "spotify:artist:3JFsVIxOn7STeilPICkkB2"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3TOqt5oJwL9BE2NG9MEwDa"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 560232
+      },
+      "genres" : [ "alternative metal", "nu metal", "rap metal" ],
+      "href" : "https://api.spotify.com/v1/artists/3TOqt5oJwL9BE2NG9MEwDa",
+      "id" : "3TOqt5oJwL9BE2NG9MEwDa",
+      "images" : [ {
+        "height" : 999,
+        "url" : "https://i.scdn.co/image/d560c02ffe2a6077f7c3c615f94cd86bd404c481",
+        "width" : 1000
+      }, {
+        "height" : 639,
+        "url" : "https://i.scdn.co/image/5284890c76d869cdf24005d59ddd4b3fb4612bc5",
+        "width" : 640
+      }, {
+        "height" : 200,
+        "url" : "https://i.scdn.co/image/1440191b5fcc31f5ad00c52eb0e90b642c1c6dc9",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/2ddcdef6429b84db7848552dcfcfe17882d5588b",
+        "width" : 64
+      } ],
+      "name" : "Disturbed",
+      "popularity" : 79,
+      "type" : "artist",
+      "uri" : "spotify:artist:3TOqt5oJwL9BE2NG9MEwDa"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/3pulcT2wt7FEG10lQlqDJL"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 104028
+      },
+      "genres" : [ "melodic death metal", "swedish metal", "viking metal" ],
+      "href" : "https://api.spotify.com/v1/artists/3pulcT2wt7FEG10lQlqDJL",
+      "id" : "3pulcT2wt7FEG10lQlqDJL",
+      "images" : [ {
+        "height" : 414,
+        "url" : "https://i.scdn.co/image/4d515c775d25213d14c8590acb5c32a052039dec",
+        "width" : 600
+      }, {
+        "height" : 138,
+        "url" : "https://i.scdn.co/image/3e42132d2b4dedfdfbecf663716ea1be80824e13",
+        "width" : 200
+      }, {
+        "height" : 44,
+        "url" : "https://i.scdn.co/image/57ff6b76cf40413ed2563001e5b693a237d081fa",
+        "width" : 64
+      } ],
+      "name" : "Amon Amarth",
+      "popularity" : 61,
+      "type" : "artist",
+      "uri" : "spotify:artist:3pulcT2wt7FEG10lQlqDJL"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4Lm0pUvmisUHMdoky5ch2I"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 169937
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/4Lm0pUvmisUHMdoky5ch2I",
+      "id" : "4Lm0pUvmisUHMdoky5ch2I",
+      "images" : [ {
+        "height" : 611,
+        "url" : "https://i.scdn.co/image/4315f9d9e6b870ae203b4f67fb037c0fbfd1b615",
+        "width" : 611
+      }, {
+        "height" : 200,
+        "url" : "https://i.scdn.co/image/7ed5ee2ce663cc35648eafa9d8ccb3a111d6e22a",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/4871a736a86c1d74dbcb10110b95ccbb67a38f9b",
+        "width" : 64
+      } ],
+      "name" : "Apocalyptica",
+      "popularity" : 63,
+      "type" : "artist",
+      "uri" : "spotify:artist:4Lm0pUvmisUHMdoky5ch2I"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/4sy5qWfwUwpGYBnCKnwfcW"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 37836
+      },
+      "genres" : [ "melodic metalcore" ],
+      "href" : "https://api.spotify.com/v1/artists/4sy5qWfwUwpGYBnCKnwfcW",
+      "id" : "4sy5qWfwUwpGYBnCKnwfcW",
+      "images" : [ {
+        "height" : 563,
+        "url" : "https://i.scdn.co/image/4593c224c61f70c767cf4cc5300afb79275fb1fb",
+        "width" : 1000
+      }, {
+        "height" : 360,
+        "url" : "https://i.scdn.co/image/109ca943cb6164bfa512220c0f5cac62b7bbf0c4",
+        "width" : 640
+      }, {
+        "height" : 113,
+        "url" : "https://i.scdn.co/image/6615c62d58ae3b91e789a2ae6a48594c6c98cf89",
+        "width" : 200
+      }, {
+        "height" : 36,
+        "url" : "https://i.scdn.co/image/0671f23b7ec29a32f92fd9dd1c8995742f39c996",
+        "width" : 64
+      } ],
+      "name" : "Heaven Shall Burn",
+      "popularity" : 51,
+      "type" : "artist",
+      "uri" : "spotify:artist:4sy5qWfwUwpGYBnCKnwfcW"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 2708467
+      },
+      "genres" : [ "shimmer pop", "stomp pop" ],
+      "href" : "https://api.spotify.com/v1/artists/53XhwfbYqKCa1cC15pYq2q",
+      "id" : "53XhwfbYqKCa1cC15pYq2q",
+      "images" : [ {
+        "height" : 498,
+        "url" : "https://i.scdn.co/image/1a58858f706cc39f29392bb16ff855d18cdfa2ec",
+        "width" : 500
+      }, {
+        "height" : 199,
+        "url" : "https://i.scdn.co/image/48fe06404f8216bd536360862d9e7b594d443a2e",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/d5f955b02e73b8d60f2bff9435fe0a27bbf6c3ea",
+        "width" : 64
+      } ],
+      "name" : "Imagine Dragons",
+      "popularity" : 87,
+      "type" : "artist",
+      "uri" : "spotify:artist:53XhwfbYqKCa1cC15pYq2q"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5eAWCfyUhZtHHtBdNk56l1"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 999923
+      },
+      "genres" : [ "alternative metal", "nu metal" ],
+      "href" : "https://api.spotify.com/v1/artists/5eAWCfyUhZtHHtBdNk56l1",
+      "id" : "5eAWCfyUhZtHHtBdNk56l1",
+      "images" : [ {
+        "height" : 454,
+        "url" : "https://i.scdn.co/image/4c6fb53e449ded52b885de04ec6a4094a0567738",
+        "width" : 1000
+      }, {
+        "height" : 290,
+        "url" : "https://i.scdn.co/image/edf9fbbdf9a43f73d91bf21bcbb5f9a49f20958e",
+        "width" : 639
+      }, {
+        "height" : 91,
+        "url" : "https://i.scdn.co/image/3ec25089636b19338120eadd88bef1f0904b9572",
+        "width" : 200
+      }, {
+        "height" : 29,
+        "url" : "https://i.scdn.co/image/e81065c35b2b5a86ddf7ef8e2cd7ae3c1fb13c3d",
+        "width" : 64
+      } ],
+      "name" : "System of a Down",
+      "popularity" : 80,
+      "type" : "artist",
+      "uri" : "spotify:artist:5eAWCfyUhZtHHtBdNk56l1"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/5he5w2lnU9x7JFhnwcekXX"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 3774127
+      },
+      "genres" : [ "brostep", "complextro" ],
+      "href" : "https://api.spotify.com/v1/artists/5he5w2lnU9x7JFhnwcekXX",
+      "id" : "5he5w2lnU9x7JFhnwcekXX",
+      "images" : [ {
+        "height" : 667,
+        "url" : "https://i.scdn.co/image/39e1d16745912f0ae73e7967f062a4414479775b",
+        "width" : 1000
+      }, {
+        "height" : 427,
+        "url" : "https://i.scdn.co/image/43b0179da34422d28c436263fc71668f8a90601c",
+        "width" : 640
+      }, {
+        "height" : 133,
+        "url" : "https://i.scdn.co/image/e050fc2bb0aaa8b8b2c831be99ad4cfadb519a69",
+        "width" : 200
+      }, {
+        "height" : 43,
+        "url" : "https://i.scdn.co/image/ad40731cf4e8104586861476a85883d4edc39a15",
+        "width" : 64
+      } ],
+      "name" : "Skrillex",
+      "popularity" : 88,
+      "type" : "artist",
+      "uri" : "spotify:artist:5he5w2lnU9x7JFhnwcekXX"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6B5c4sch27tWHAGdarpPaW"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 332993
+      },
+      "genres" : [ "post-grunge" ],
+      "href" : "https://api.spotify.com/v1/artists/6B5c4sch27tWHAGdarpPaW",
+      "id" : "6B5c4sch27tWHAGdarpPaW",
+      "images" : [ {
+        "height" : 563,
+        "url" : "https://i.scdn.co/image/16e86259c5c3d185f2e51342b8d48dd81b6c12a8",
+        "width" : 1000
+      }, {
+        "height" : 360,
+        "url" : "https://i.scdn.co/image/b3e135690b77426342d85395c9fdf96bfdf963fd",
+        "width" : 640
+      }, {
+        "height" : 113,
+        "url" : "https://i.scdn.co/image/661f53f30df4cb74086adde95bbd9f8b91b1f3f8",
+        "width" : 200
+      }, {
+        "height" : 36,
+        "url" : "https://i.scdn.co/image/5b373329ce9d335378996d7f0cd90cb10981c1d1",
+        "width" : 64
+      } ],
+      "name" : "Seether",
+      "popularity" : 72,
+      "type" : "artist",
+      "uri" : "spotify:artist:6B5c4sch27tWHAGdarpPaW"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6cmp7ut7okJAgJOSaMAVf3"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 23416
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/6cmp7ut7okJAgJOSaMAVf3",
+      "id" : "6cmp7ut7okJAgJOSaMAVf3",
+      "images" : [ {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/a3685477f590902679ba0f0a7c87058a7bbcc4b9",
+        "width" : 636
+      }, {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/10043937ecdbcf9e9e6fd88ce68aea3092385d76",
+        "width" : 298
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/b906ddff3677efd1bc1e23253c9c44e9b2850ae2",
+        "width" : 64
+      } ],
+      "name" : "Machinae Supremacy",
+      "popularity" : 52,
+      "type" : "artist",
+      "uri" : "spotify:artist:6cmp7ut7okJAgJOSaMAVf3"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/6ui6SwChan7c1KYBQCqGKV"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 28909
+      },
+      "genres" : [ "folk metal", "viking metal" ],
+      "href" : "https://api.spotify.com/v1/artists/6ui6SwChan7c1KYBQCqGKV",
+      "id" : "6ui6SwChan7c1KYBQCqGKV",
+      "images" : [ {
+        "height" : 667,
+        "url" : "https://i.scdn.co/image/0c0df01d14f686187cea5f171b162bb0f60bc1d0",
+        "width" : 1000
+      }, {
+        "height" : 427,
+        "url" : "https://i.scdn.co/image/17611de55e79b67b212f49b32034e244d387a1b7",
+        "width" : 640
+      }, {
+        "height" : 133,
+        "url" : "https://i.scdn.co/image/a823eca6ea5aaad93162ac5ed24ef67dbcdd4649",
+        "width" : 200
+      }, {
+        "height" : 43,
+        "url" : "https://i.scdn.co/image/26c67bb80acf60edb27a9b4550abbf5dae1b0e29",
+        "width" : 64
+      } ],
+      "name" : "Wintersun",
+      "popularity" : 45,
+      "type" : "artist",
+      "uri" : "spotify:artist:6ui6SwChan7c1KYBQCqGKV"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/70BYFdaZbEKbeauJ670ysI"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 396848
+      },
+      "genres" : [ ],
+      "href" : "https://api.spotify.com/v1/artists/70BYFdaZbEKbeauJ670ysI",
+      "id" : "70BYFdaZbEKbeauJ670ysI",
+      "images" : [ {
+        "height" : 1000,
+        "url" : "https://i.scdn.co/image/66f272ae1fab876819160c678a6f84ad2c2168ee",
+        "width" : 1000
+      }, {
+        "height" : 640,
+        "url" : "https://i.scdn.co/image/cd35ff3e77fede29512db439c6ae76cb8afe5303",
+        "width" : 640
+      }, {
+        "height" : 200,
+        "url" : "https://i.scdn.co/image/64e00c05a17ef8cf3b5c3d46ed1d5ca098abe863",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/70e3b978e965c32438857195a2d4099353043bd7",
+        "width" : 64
+      } ],
+      "name" : "Shinedown",
+      "popularity" : 76,
+      "type" : "artist",
+      "uri" : "spotify:artist:70BYFdaZbEKbeauJ670ysI"
+    }, {
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/artist/7wqP36o9lqWteOCxBnXlwx"
+      },
+      "followers" : {
+        "href" : null,
+        "total" : 64541
+      },
+      "genres" : [ "melodic death metal" ],
+      "href" : "https://api.spotify.com/v1/artists/7wqP36o9lqWteOCxBnXlwx",
+      "id" : "7wqP36o9lqWteOCxBnXlwx",
+      "images" : [ {
+        "height" : 300,
+        "url" : "https://i.scdn.co/image/337d0eaeb294af4863a7a648fa7307be663f1305",
+        "width" : 300
+      }, {
+        "height" : 200,
+        "url" : "https://i.scdn.co/image/1f019f26b178dbe15248868786ec07825b33c7f6",
+        "width" : 200
+      }, {
+        "height" : 64,
+        "url" : "https://i.scdn.co/image/0302a918a67e8735ae658064c54422fa7e3f4219",
+        "width" : 64
+      } ],
+      "name" : "Soilwork",
+      "popularity" : 61,
+      "type" : "artist",
+      "uri" : "spotify:artist:7wqP36o9lqWteOCxBnXlwx"
+    } ],
+    "next" : null,
+    "total" : 18,
+    "cursors" : {
+      "after" : null
+    },
+    "limit" : 25,
+    "href" : "https://api.spotify.com/v1/users/alexgirke/following?type=artist&limit=25"
+  }
+}
