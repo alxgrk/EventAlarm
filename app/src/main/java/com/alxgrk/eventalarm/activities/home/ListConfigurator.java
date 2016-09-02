@@ -7,6 +7,7 @@ package com.alxgrk.eventalarm.activities.home;
 
 import android.support.annotation.NonNull;
 import android.support.v4.view.ViewPager;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -14,6 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Toast;
 
 import com.alxgrk.eventalarm.R;
+import com.alxgrk.eventalarm.activities.home.maps.EventMap;
 import com.alxgrk.eventalarm.info.BandInfo;
 import com.alxgrk.eventalarm.requests.MapHolder;
 import com.alxgrk.eventalarm.util.BitmapUtil;
@@ -26,6 +28,8 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
+
+import static com.alxgrk.eventalarm.util.Constants.LIST_CONFIGURATOR_TAG;
 
 final class ListConfigurator {
 
@@ -68,20 +72,19 @@ final class ListConfigurator {
         // TreeMap<String, List<InfoObject>> listDataChild = new TreeMap<>();
 
         Set<String> artists = mapHolder.getArtistMap().keySet();
-        if (!mapHolder.getEventMap().getMap().isEmpty()) {
+        EventMap eventMap = mapHolder.getEventMap();
+        Log.d(LIST_CONFIGURATOR_TAG, "Events: " + eventMap);
+        if (!eventMap.getMap().isEmpty()) {
             for (String artist : artists) {
                 BandInfo bandInfo = new BandInfo(artist, mapHolder.getImageMap().get(artist));
-                if (mapHolder.getEventMap().get(artist).isEmpty()) {
+                if (eventMap.get(artist).isEmpty()) {
                     listBandsWithoutEvents.add(bandInfo);
                 } else {
                     listDataMain.add(bandInfo);
                 }
             }
-        } else {
-            String noEventsString = home.getResources().getString(R.string.no_events);
-            BandInfo bandInfo = new BandInfo(noEventsString, BitmapUtil.EMPTY_BITMAP);
-            listDataMain.add(bandInfo);
         }
+        handleEmptiness(listDataMain);
 		
 		numberOfArtistsWithEvents = listDataMain.size();
 
@@ -90,6 +93,16 @@ final class ListConfigurator {
 
         mainViewAdapter = new MainViewAdapter(home, listDataMain);
         sideListAdapter = new SideListAdapter(home, listBandsWithoutEvents);
+    }
+
+    private void handleEmptiness(List<BandInfo> listDataMain) {
+        if(listDataMain.isEmpty()) {
+            String noEventsString = home.getResources().getString(R.string.no_events);
+            BandInfo bandInfo = new BandInfo(noEventsString,
+                    new BitmapUtil().noBandsBitmap(home.getResources()));
+            home.tvArtistNumber.setVisibility(View.GONE);
+            listDataMain.add(bandInfo);
+        }
     }
 
     void updateMapHolder(@NonNull MapHolder mapHolder) {

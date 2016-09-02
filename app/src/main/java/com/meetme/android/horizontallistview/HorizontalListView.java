@@ -56,6 +56,8 @@ import android.widget.ListView;
 import android.widget.ScrollView;
 import android.widget.Scroller;
 
+import com.alxgrk.eventalarm.R;
+
 // @formatter:off
 /**
  * A view that shows items in a horizontally scrolling list. The items

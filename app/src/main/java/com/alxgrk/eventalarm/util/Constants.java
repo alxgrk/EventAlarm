@@ -6,9 +6,9 @@
 package com.alxgrk.eventalarm.util;
 
 public class Constants {
-    public static final String SPOTIFY_CLIENT_ID = "e4ba42b9277f4e99a77e9a55c7c438ce";
+    public static final String SPOTIFY_CLIENT_ID = "c73d3e68dbff47fa96d3605d659a5e8b";
 
-    public static final String SPOTIFY_REDIRECT_URI = "eventsforspotify://callback";
+    public static final String SPOTIFY_REDIRECT_URI = "eventalarm://callback";
 
     // for handling the SpotifyLoginActivity result
     public static final int LOGIN_REQUEST = 1;
@@ -48,4 +48,7 @@ public class Constants {
 
     // log tag for BackgroundImageProcessor
     public static final String IMAGE_PROCESSOR_TAG = "ImageProcessor";
+
+    // log tag for ListConfigurator
+    public static final String LIST_CONFIGURATOR_TAG = "ListConfigurator";
 }

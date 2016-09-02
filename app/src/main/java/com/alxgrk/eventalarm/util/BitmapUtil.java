@@ -19,6 +19,7 @@ import android.renderscript.Matrix3f;
 import android.renderscript.RenderScript;
 import android.renderscript.ScriptIntrinsicBlur;
 import android.renderscript.ScriptIntrinsicColorMatrix;
+import android.support.annotation.DrawableRes;
 import android.support.annotation.NonNull;
 import android.util.Log;
 
@@ -46,6 +47,11 @@ public class BitmapUtil {
 
     public BitmapUtil(int imageEdgeLength) {
         this.imageEdgeLength = imageEdgeLength;
+    }
+
+    public final Bitmap noBandsBitmap(@NonNull Resources resources) {
+        return loadSampledBitmapFrom(resources, R.drawable.no_picture,
+                DEFAULT_IMAGE_EDGE_LENGTH, DEFAULT_IMAGE_EDGE_LENGTH);
     }
 
     public final Bitmap scaleBitmap(@NonNull Bitmap bitmap) {
