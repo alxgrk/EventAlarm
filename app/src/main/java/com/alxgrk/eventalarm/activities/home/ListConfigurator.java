@@ -100,8 +100,8 @@ final class ListConfigurator {
             String noEventsString = home.getResources().getString(R.string.no_events);
             BandInfo bandInfo = new BandInfo(noEventsString,
                     new BitmapUtil().noBandsBitmap(home.getResources()));
-            home.tvArtistNumber.setVisibility(View.GONE);
             listDataMain.add(bandInfo);
+            home.tvArtistNumber.setTag(View.GONE);
         }
     }
 

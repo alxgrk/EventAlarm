@@ -4,6 +4,7 @@ import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.animation.Animation;
@@ -61,8 +62,9 @@ class UIHelper {
 				@Override
 				public void onAnimationEnd(Animator animation) {
 					super.onAnimationEnd(animation);
-					home.tvArtistNumber.setVisibility(loading ? View.GONE : View.VISIBLE);
-				}
+                    boolean shouldBeVisible = loading || (View.GONE == (int) home.tvArtistNumber.getTag());
+                    home.tvArtistNumber.setVisibility(shouldBeVisible ? View.GONE : View.VISIBLE);
+                }
 			});
 			
 		home.tvRefresh.animate().setDuration(longAnimTime).alpha(loading ? 0 : 1).setListener(
