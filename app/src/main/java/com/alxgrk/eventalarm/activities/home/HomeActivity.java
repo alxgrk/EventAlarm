@@ -25,6 +25,7 @@ import com.alxgrk.eventalarm.requests.handler.RequestScheduler;
 import com.alxgrk.eventalarm.util.EventNotificator;
 import com.alxgrk.eventalarm.util.NullChecker;
 import com.alxgrk.eventalarm.util.datastores.StorageHelper;
+import com.cpiz.android.bubbleview.BubbleTextView;
 import com.meetme.android.horizontallistview.HorizontalListView;
 import com.spotify.sdk.android.authentication.AuthenticationClient;
 
@@ -51,6 +52,8 @@ public class HomeActivity extends Activity {
 	TextView tvLogout;
 
     ViewPager mainView;
+
+    BubbleTextView bandBubble;
 
     HorizontalListView sideListView;
 
@@ -102,6 +105,8 @@ public class HomeActivity extends Activity {
         mainView = (ViewPager) findViewById(R.id.mainView);
         sideListView = (HorizontalListView) findViewById(R.id.sideLv);
         footerView = (LinearLayout) findViewById(R.id.footer);
+
+        bandBubble = (BubbleTextView) findViewById(R.id.bandBubble);
 
         backgrView = (SurfaceView) findViewById(R.id.backgrView);
         backgrView.setBackgroundColor(Color.GRAY); // TODO default bg image

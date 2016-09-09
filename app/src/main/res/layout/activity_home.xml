@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity" >
+    tools:context=".activities.home.HomeActivity" >
 	
 	<SurfaceView
 		android:id="@+id/backgrView"
@@ -54,7 +54,7 @@
 	        android:layout_weight="0.4" />
     
 	</LinearLayout>
-	
+
 	<com.meetme.android.horizontallistview.HorizontalListView
 	    android:id="@+id/sideLv"
 	    android:scrollbars="horizontal"
@@ -63,7 +63,26 @@
 	    android:layout_above="@id/footer"
 	    android:layout_marginBottom="15dp"
 	    android:visibility="gone" />
-	
+
+	<com.cpiz.android.bubbleview.BubbleTextView
+		android:id="@+id/bandBubble"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_above="@id/sideLv"
+		android:layout_marginBottom="3dp"
+		android:padding="6dp"
+		android:text="@string/no_bands_at_all"
+		android:textColor="@color/textColor"
+		android:visibility="gone"
+		widget:bb_borderColor="@color/white"
+		widget:bb_borderWidth="2dp"
+		widget:bb_cornerBottomLeftRadius="3dp"
+		widget:bb_cornerBottomRightRadius="3dp"
+		widget:bb_cornerTopLeftRadius="3dp"
+		widget:bb_cornerTopRightRadius="3dp"
+		widget:bb_arrowTo="@id/sideLv"/>
+
 	<android.support.v4.view.ViewPager
 	    android:id="@+id/mainView"
 	    android:layout_width="match_parent"
